@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>What is {{ num1 }} times {{ num2 }}?<span v-if="product">{{ product }}</span></p>
+    <p>What is {{ num1 }} times {{ num2 }}? <span v-if="product">{{ product }}</span></p>
     <button v-on:click="calculateProduct">Calculate</button>
     <h2>2 Things that are difficult in JavaScript</h2>
     <ol>
